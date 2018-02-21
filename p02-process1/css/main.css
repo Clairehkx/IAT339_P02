@@ -2,6 +2,7 @@ body {
 	font-family: 'Bodoni','Din';
 	margin: 1rem;
 	font-size: 1.25rem;
+	background-color: #FFFEF8;
 }
 
 section{
@@ -171,7 +172,7 @@ ol{
 }
 
 .color-5{
-	background: #F5FBEF;
+	background: #FFFEF8;
 }
 
 figure{
