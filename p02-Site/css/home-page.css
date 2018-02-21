@@ -1,14 +1,24 @@
 body {
+	background-image: url('../img/home.jpeg');
+	background-size: 100%;
+	background-color: #FFFEF8;
 	font-family: 'Bodoni','Din';
 	margin: 1rem;
 	font-size: 1.25rem;
-	background-color: #FFFEF8;
+	background-repeat: no-repeat;
 }
 
 section{
-	margin-top:0.5rem;
+	margin-bottom: 3rem;
 }
 
+a{
+	text-decoration:none;
+}
+
+.title:hover{
+	background-color: rgba(235,249,245,0.6);
+}
 
 .product-list a{
 	text-decoration: none;
@@ -59,14 +69,14 @@ nav{
 	display: block;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
-	border-bottom: 1px solid rgb(200,200,200);
+	background: rgba(255,255,255,0.75);
 }
 
 .nav-item{
 	font-family: 'Din';
 	font-weight: bold;
 	text-decoration: none;
-	color: rgb(150,150,150);
+	color: rgb(100,100,100);
 	padding: 0.5em 1em 0.5em 1em;
 	font-size: 20px;
 	text-align: center;
@@ -172,7 +182,7 @@ ol{
 }
 
 .color-5{
-	background: #FFFEF8;
+	background: #F5FBEF;
 }
 
 figure{
@@ -187,13 +197,6 @@ figure{
 	width: 30px;
 	position: relative;
 	margin-top: 1.5em;
-	
-}
-
-.grid-icon img:hover{
-	width: 40px;
-	position: relative;
-	margin-top: 1.2em;
 	
 }
 
@@ -277,68 +280,33 @@ code{
 .container{
 	display: flex;
 	justify-content: center;
+	
 }
 
 .title{
-	margin-top: 3em;
+	margin-top: 4em;
 	padding: 1em 2em;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0.6);
+}
+.container h1{
+	color: rgb(100,100,100);
+	text-align: center;
 }
 
-.grid-col-1of2 img{
-	max-width: 100%;
+.container h3{
+	color: rgb(100,100,100);
+	font-size: 1.6em;
+	font-weight: lighter;
+	text-align: center;
 }
 
-#top h1{
-	    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-}
-
-.about h3{
-	-webkit-margin-before:0;
-    -webkit-margin-after:0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-
-#menu-about a,#menu-home a{
+#menu-home a{
 	font-family: 'Din';
 	font-weight: bold;
 	padding: 0.5em 1em 0.5em 1em;
 	font-size: 20px;
 	text-align: center;
-	color: rgb(160,200,190);
+	color: rgb(140,180,170);
 	text-decoration: underline;
 
-}
-
-.about-container,.item-container{
-	height: 85%;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-}
-
-.item-container h2{
-	-webkit-margin-before: 0.4em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-
-.back{
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	width: 140px;
-	height: 70px;
-	z-index: 100;
-	text-decoration: none;
-	padding-left: 0.4em;
-}
-
-.back a{
-
-	text-decoration:underline;
-	text-decoration-color: rgb(160,200,190);
 }
