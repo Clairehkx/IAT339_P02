@@ -20,6 +20,13 @@
 
 @font-face {
 	font-family: 'Din';
+	font-weight: lighter;
+	src: url('../Din/DINPro-Light.otf');
+	
+}
+
+@font-face {
+	font-family: 'Din';
 	font-weight: bold;
 	src: url('../Din/DINPro-Medium.otf');
 	
