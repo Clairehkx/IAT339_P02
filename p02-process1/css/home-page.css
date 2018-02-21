@@ -12,6 +12,13 @@ section{
 	margin-bottom: 3rem;
 }
 
+a{
+	text-decoration:none;
+}
+
+.title:hover{
+	background-color: rgba(235,249,245,0.6);
+}
 
 .product-list a{
 	text-decoration: none;

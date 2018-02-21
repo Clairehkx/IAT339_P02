@@ -91,13 +91,13 @@
 		text-align: center;
 	}
 
-	.about-container h3{
+	.about-container,.item-container h3{
 		color: rgb(100,100,100);
 		font-size: 1em;
 		text-align: left;
 	}
 
-	.about-container{
+	.about-container,.item-container{
 		display: inline-block;
 	}
 	
