@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Bodoni';
+	font-weight: normal;
+	src: url('../Bodoni/BauerBodoniStd-Roman.otf');	
+}
+
+@font-face {
+	font-family: 'Bodoni';
+	font-weight: bold;
+	src: url('../Bodoni/BauerBodoniStd-Bold.otf');
+	
+}
+
+@font-face {
+	font-family: 'Din';
+	font-weight: normal;
+	src: url('../Din/DINPro-Regular.otf');
+	
+}
+
+@font-face {
+	font-family: 'Din';
+	font-weight: lighter;
+	src: url('../Din/DINPro-Light.otf');
+	
+}
+
+@font-face {
+	font-family: 'Din';
+	font-weight: bold;
+	src: url('../Din/DINPro-Medium.otf');
+	
+}
