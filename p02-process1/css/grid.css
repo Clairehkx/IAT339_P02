@@ -22,7 +22,8 @@
 
 .grid-col-1of4{
 	width:25%;
-	/*padding:0 1.5em 0 1.5em;*/
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 	text-align: center;
 }
 
@@ -60,8 +61,17 @@
 	.grid-col-1of3{
 		width: 100%;
 	}
+
+	.grid-col-main{
+		width:50%;
+	}
 	.grid-col-1of4{
 		width:100%;
+		margin-top:0.5em;
+		margin-bottom: 0.5em;
+	}
+	.grid-icon{
+		width:25%;
 	}
 	.grid-col-1of5{
 		width:50%;

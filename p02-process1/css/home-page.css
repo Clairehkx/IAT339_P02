@@ -1,0 +1,291 @@
+body {
+	background-image: url('../img/home.jpeg');
+	background-size: 100%;
+	background-color: rgb(240,230,220);
+	font-family: 'Bodoni','Din';
+	margin: 1rem;
+	font-size: 1.25rem;
+	background-repeat: no-repeat;
+}
+
+section{
+	margin-bottom: 3rem;
+}
+
+
+.product-list a{
+	text-decoration: none;
+	font-family: 'Din';
+	font-size: 18px;
+	font-weight: bold;
+	color:rgb(90,150,170);
+}
+
+.product-list a:active,.product-list a:hover{
+	text-decoration: underline;
+	color: rgb(90,150,170);
+}
+
+.product-list img:active,.product-list img:hover{
+	box-shadow: 2px 2px 5px rgb(160,200,190);
+
+}
+
+.product-list img{
+	border-radius: 8px;
+}
+
+h1{
+	font-family: 'Bodoni';
+	font-weight: bold;
+	color: rgb(150,150,150);
+	font-size: 40px;
+}
+
+h2{
+	font-family: 'Bodoni';
+	font-weight: bold;
+	color: rgb(160,200,190);
+	font-size: 32px;
+}
+
+h3{
+	font-family: 'Din';
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(160,200,190);
+	font-size: 22px;
+}
+
+
+nav{
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	background: rgba(255,255,255,0.75);
+}
+
+.nav-item{
+	font-family: 'Din';
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(100,100,100);
+	padding: 0.5em 1em 0.5em 1em;
+	font-size: 20px;
+	text-align: center;
+}
+
+.nav-item:active,.nav-item:hover{
+	color: rgb(160,200,190);
+	text-decoration: underline;
+}
+
+.in-text{
+	font-family: 'Din';
+	font-size: 16px;
+	font-style: normal;
+	text-decoration: underline;
+	color:rgb(90,150,170);
+}
+
+form{
+	display: block;
+	margin: 2em 1em 2em 1em;
+}
+
+label{
+	font-family: 'Din';
+	font-size: 16px;
+	font-weight: bold;
+	
+	text-decoration: none;
+	color:rgb(160,200,190);
+}
+
+input{
+	border: 1px solid rgb(210,210,210);
+	padding:0.2rem;
+	margin-bottom: 1rem;
+}
+
+textarea{
+	border: 1px solid rgb(210,210,210);
+	outline: none;
+}
+
+input:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+	color: rgb(210,210,210);
+}
+
+button{
+	padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+	font-size: 16px;
+	border: none;
+	background: rgb(210,210,210);
+	color:white;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	outline-color: rgb(160,200,190);
+}
+
+button:active,button:hover{
+	background: rgb(160,200,190);
+}
+
+p{
+	font-family: 'Din';
+	font-weight: normal;
+	font-size: 14px;
+	color:rgb(150,150,150);
+}
+
+ul{
+	color:rgb(150,150,150);
+	font-family: 'Bodoni';
+	font-style: normal;
+	font-size: 14px;
+}
+
+ol{
+	color: rgb(160,200,190);
+	font-family: 'Bodoni';
+	font-style: normal;
+	font-size: 14px;
+}
+
+.color-1{
+	background: #969696;
+}
+
+.color-2{
+	background: #D2D2D2;
+}
+
+.color-3{
+	background: #A0C8BE;
+	color:white;
+}
+
+.color-4{
+	background: #5A96AA;
+}
+
+.color-5{
+	background: #F5FBEF;
+}
+
+figure{
+	padding: 0;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.grid-icon img{
+	width: 30px;
+	position: relative;
+	margin-top: 1.5em;
+	
+}
+
+.product-list img{
+	max-width: 100%;
+	margin: 0;
+}
+
+figcaption{
+	font-family: 'Din';
+	font-weight: normal;
+	color: rgb(90,150,170);
+}
+
+
+
+code{
+	padding: 1em;
+	margin-bottom: 2rem;
+	display: block;
+}
+
+.game img{
+	max-width: 70%;
+	border: 1px solid gray;
+}
+
+.phone img{
+	max-width: 100%;
+}
+
+.watch img{
+	max-width: 100%;
+}
+#nav-fixed-area{
+  display:flex;
+  width: 100%;
+ 
+}
+#navigation{
+  display:flex;
+  width: 150px;
+  /*flex-direction: row;
+  flex-grow: 10em;*/
+  /*position: absolute;*/
+  text-align: right;
+  float: right;
+  position: fixed;
+  margin-left: 80%;
+  margin-right: auto;
+ /* border-right-width: 2px;
+  border-right-color: grey;
+  border-right-style: dashed;
+  border-radius: 2px;
+  padding-right: 20px;*/
+
+}
+#navigation h2{
+	font-size: 1.5rem;
+	display: block;
+	text-decoration:none;
+}
+
+#navigation a{
+	font-size: 1rem;
+	display: block;
+	text-decoration:none;
+	color:rgb(150,150,150);
+}
+
+#navigation a:hover, #navigation a:active{
+	display: block;
+	text-decoration:underline;
+	color:rgb(150,150,150);
+}
+
+.sitemap img{
+	width: 100%;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.title{
+	margin-top: 5em;
+	padding: 1em 2em;
+	background-color: rgba(255,255,255,0.7);
+}
+.container h1{
+	color: rgb(100,100,100);
+}
+
+.container h3{
+	color: rgb(100,100,100);
+	text-align: center;
+}
