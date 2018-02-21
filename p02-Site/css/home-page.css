@@ -1,5 +1,5 @@
 body {
-	background-image: url('../img/home.jpeg');
+	background-image: url('../img/bedroom.jpg');
 	background-size: 100%;
 	background-color: #FFFEF8;
 	font-family: 'Bodoni','Din';
@@ -104,7 +104,7 @@ label{
 	font-family: 'Din';
 	font-size: 16px;
 	font-weight: bold;
-	
+
 	text-decoration: none;
 	color:rgb(160,200,190);
 }
@@ -197,7 +197,7 @@ figure{
 	width: 30px;
 	position: relative;
 	margin-top: 1.5em;
-	
+
 }
 
 .product-list img{
@@ -234,7 +234,7 @@ code{
 #nav-fixed-area{
   display:flex;
   width: 100%;
- 
+
 }
 #navigation{
   display:flex;
@@ -280,7 +280,7 @@ code{
 .container{
 	display: flex;
 	justify-content: center;
-	
+
 }
 
 .title{
