@@ -83,5 +83,15 @@
 		font-weight: lighter;
 		text-align: center;
 	}
+
+	.about-container h3{
+		color: rgb(100,100,100);
+		font-size: 1em;
+		text-align: left;
+	}
+
+	.about-container{
+		display: inline-block;
+	}
 	
 }
