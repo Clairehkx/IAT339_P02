@@ -292,3 +292,14 @@ code{
 	font-weight: lighter;
 	text-align: center;
 }
+
+#menu-home a{
+	font-family: 'Din';
+	font-weight: bold;
+	padding: 0.5em 1em 0.5em 1em;
+	font-size: 20px;
+	text-align: center;
+	color: rgb(140,180,170);
+	text-decoration: underline;
+
+}
