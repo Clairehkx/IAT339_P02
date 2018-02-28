@@ -94,7 +94,7 @@ label{
 	font-family: 'Din';
 	font-size: 16px;
 	font-weight: bold;
-	
+
 	text-decoration: none;
 	color:rgb(160,200,190);
 }
@@ -187,14 +187,14 @@ figure{
 	width: 30px;
 	position: relative;
 	margin-top: 1.5em;
-	
+
 }
 
 .grid-icon img:hover{
 	width: 40px;
 	position: relative;
 	margin-top: 1.2em;
-	
+
 }
 
 .product-list img{
@@ -231,7 +231,29 @@ code{
 #nav-fixed-area{
   display:flex;
   width: 100%;
- 
+
+}
+
+#footer{
+	border-top: 1px solid rgb(200,200,200);
+}
+
+#footer p{
+	font-size: 8pt;
+	color: grey;
+}
+
+#footer p a{
+	text-decoration: none;
+	color:grey;
+}
+#footer p a:hover{
+	text-decoration: underline;
+	color:grey;
+}
+
+#footerTitle{
+
 }
 #navigation{
   display:flex;

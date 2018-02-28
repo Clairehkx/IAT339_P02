@@ -52,6 +52,18 @@
     /*border-bottom: 1px solid rgb(200,200,200);*/
 }
 
+.footer-div
+{
+  padding-left: 1.5rem;
+  display: inline-block;
+  width: 30%;
+
+}
+.footer-div #footerTitle{
+  margin-left:200%;
+}
+
+
 @media(max-width: 60em){
 	.grid-col-1of3{
 		width:50%;
@@ -100,5 +112,22 @@
 	.about-container,.item-container{
 		display: inline-block;
 	}
-	
+
+  .footer-div
+  {
+    display:flex;
+    flex-wrap: center;
+    width:100%;
+    vertical-align: middle;
+    padding-left:20%;
+
+  }
+
+  .footer-div #footerTitle{
+    margin-left:0%;
+    padding-left:25%;
+  }
+
+
+
 }
