@@ -221,6 +221,13 @@ code{
 	border: 1px solid gray;
 }
 
+td{
+	padding: 2rem;
+}
+
+table{
+
+}
 .phone img{
 	max-width: 100%;
 }
