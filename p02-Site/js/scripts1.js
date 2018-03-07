@@ -2,7 +2,10 @@ var myButton = document.getElementById('submitbtn');
 var myOutput = document.getElementById('output');
 var addCartBtn = document.getElementById('addCartBtn');
 var favBtn = document.getElementById('favBtn');
-var placeOrderBtn = document.getElementById('plcOrder');
+
+
+
+
 
 
 var btnClick = function(){
@@ -13,6 +16,13 @@ var btnClick = function(){
 
 
 myButton.addEventListener("click", btnClick);
+
+
+
+
+
+
+
 
 function checkoutConfirm() {
 	alert("Added to cart!");
@@ -26,6 +36,7 @@ function checkoutConfirm() {
 addCartBtn.addEventListener("click", checkoutConfirm);
 
 
+
 function favConfirm() {
 	alert("Added to favourite!");
 	if (window.confirm('Check out your favorites?')){
@@ -36,12 +47,3 @@ function favConfirm() {
 }
 
 favBtn.addEventListener("click", favConfirm);
-
-
-function processOrderClick(){
-	alert("Your order has been placed!");
-	window.location.href='index.html';
-}
-
-
-placeOrderBtn.addEventListener("click", processOrderClick);
