@@ -2,32 +2,42 @@ var myButton = document.getElementById('submitbtn');
 var myOutput = document.getElementById('output');
 var addCartBtn = document.getElementById('addCartBtn');
 var favBtn = document.getElementById('favBtn');
+var placeOrderBtn = document.getElementById('plcOrder');
+
 
 var btnClick = function(){
 	alert("Thanks for your submission!");
 	//window.location.href='index.html';
 };
 
+function processOrderClick(){
+	alert("Your order has been placed!");
+	window.location.href='index.html';
+};
+
+
+placeOrderBtn.addEventListener("click", processOrderClick);
+
 myButton.addEventListener("click", btnClick);
 
-function checkoutConfirm() { 
+function checkoutConfirm() {
 	alert("Added to cart!");
-	if (window.confirm('Process to checkout?')){
+	if (window.confirm('Goto your cart?')){
 		window.location.href = "cart.html"
 	}else{
-		
+
 	}
 }
 
 addCartBtn.addEventListener("click", checkoutConfirm);
 
 
-function favConfirm() { 
+function favConfirm() {
 	alert("Added to favourite!");
-	if (window.confirm('Check it in your personal page?')){
+	if (window.confirm('Check out your favorites?')){
 		window.location.href = "loggedin.html"
 	}else{
-		
+
 	}
 }
 

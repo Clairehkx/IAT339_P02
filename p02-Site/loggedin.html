@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Logged In: USER</title>
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/font.css">
-	<link rel="stylesheet" href="css/grid.css">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Logged In: USER</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="css/grid.css">
+	</head>
 
-<body>
-	<section id="top" class="container">
-		<a href="index.html"><h1>Homaker</h1></a>
-	</section>
-	<nav>
+	<body>
+		<section id="top" class="container">
+			<a href="index.html"><h1>Homaker</h1></a>
+		</section>
+		<nav>
 		<div class="grid-row">
 
 			<div class="grid-icon">
@@ -31,98 +31,90 @@
 				<div class="grid-col-1of4">
 					<a href ="product-list.html" class="nav-item">products</a>
 				</div>
-				<div class="grid-col-1of4" id="menu-about">
+				<div class="grid-col-1of4">
 					<a href ="about.html" class="nav-item">about</a>
 				</div>
 				<div class="grid-col-1of4">
 					<a href ="contact.html" class="nav-item">contact</a>
 				</div>
 			</div>
-
 			<div class="grid-icon">
 				<div class="container">
 					<figure>
-						<a href="#cart"><img src="img/cart.png" alt="shoppingCart"></a>
+						<a href="cart.html"><img src="img/cart.png" alt="shoppingCart"></a>
 					</figure>
 				</div>
 			</div>
 
 		</div>
 	</nav>
-	<div class="grid-row">
-		<div class="grid-col-1of2 about-container">
-			<h2> Welcome, User!</h2>
-			Search Order: <input type="text" placeholder="Order Number">
-		</div>
-		<div class="grid-col-1of2  about-image">
-			<div class="grid-icon">
 
-				<figure>
-					<a href="#settings"><img src="img/settings.png" alt="settings page"></a>
-				</figure>
 
-			</div>
-		</div>
-	</div>
-	<section class="container">
 		<div class="grid-row">
-			<div class="grid-col-1of2 about-img">
-				Ongoing Orders
-				<table>
-					<tr>
-						<td><h3> Date </h3></td>
-						<td><h3> Order Number </h3></td>
-						<td><h3> Track Here </h3></td>
-					</tr>
-					<tr>
-						<td> 2017-FEB-08 </td>
-						<td> V5FZ68342 </td>
-						<td><a href="#track"> Track </a> </td>
-					</tr>
-					<tr>
-						<td> 2018-JAN-23 </td>
-						<td> V5FZ43586 </td>
-						<td><a href="#track"> Track </a> </td>
-					</tr>
-				</table>
-			</div>
-
-			<div class="grid-col-1of2  about-container">
-				<div>
-					Completed Orders
-					<table>
-						<tr>
-							<td><h3> Date </h3></td>
-							<td><h3> Order Number </h3></td>
-							<td><h3> Track Here </h3></td>
-
-						</tr>
-						<tr>
-							<td> 2017-DEC-13 </td>
-							<td> V5SS56432 </td>
-							<td>	<a href="#details"> Details </a> </td>
-						</tr>
-						<tr>
-							<td> 2017-DEC-26 </td>
-							<td> V5DL67834 </td>
-							<td>	<a href="#details"> Details </a> </td>
-						</tr>
-						<tr>
-							<td> 2017-NOV-20 </td>
-							<td> V5JK78123</td>
-							<td>	<a href="#details"> Details </a> </td>
-						</tr>
-						<tr>
-							<td> 2017-JUL-25 </td>
-							<td> V5JK78234</td>
-							<td>	<a href="#details"> Details </a> </td>
-						</tr>
-					</table>
-				</div>
+			<div class="grid-col-1of2 about-container">
+				<h2> Welcome, User!</h2>
+				<p>Search Order: </p><input type="text" placeholder="Order Number" style="width: 130px">
 			</div>
 		</div>
-	</section>
 
-</body>
+			<section class="container" id="favorite">
+					<div class="grid-row">
+					<h2 style="margin: 1em"> Favorite </h2>
+
+						<div class="grid-col-1of3 product-list">
+							<figure>
+								<a href="clock.html"><img src="img/clock.jpg" alt="product3"></a>
+								<a href="clock.html">Designer Clock
+								</a>
+								<p>$109</p>
+							</figure>
+						</div>
+						<div class="grid-col-1of3 product-list">
+							<figure>
+								<a href="items.html"><img src="img/table.jpg" alt="product1"></a>
+								<a href="items.html">Coffee Table</a>
+								<p>$129</p>
+							</figure>
+						</div>
+					</div>
+
+			</section>
+
+			<section class="container">
+				<div class="grid-row">
+				<h2 style="margin: 1em"> Ongoing Orders </h2>
+
+						 <table style="margin: 1.2em">
+							 <tr >
+								 <td><h3><center> Date </h3></td>
+								 <td><h3><center> Order Number </h3></td>
+								 <td><h3><center> Tracking Link </h3></td>
+							</tr>
+							<tr>
+								<td><p> 2017-FEB-08 </p></td>
+								<td> <p> V5FZ68342  </p> </td>
+								<td>	<p> <a href="#track"> Track </a> </p></td>
+						 </tr>
+						 <tr>
+							 <td><p> 2018-JAN-23</p> </td>
+							 <td><p> V5FZ43586 </p></td>
+							 <td><p> <a href="#track"> Track </a> </p> </td>
+						</tr>
+						</table>
+				</div>
+			</section>
+
+			<section id="footer">
+
+				<div class="footer-div">
+					<p> <a href="contact.html">contact</a> &nbsp; ⚈ &nbsp; <a href="about.html"> about </a> &nbsp; ⚈ &nbsp; <a href="style-guide.html"> styleguide </a> &nbsp; ⚈ &nbsp;<a href="citation.html"> citation </a> &nbsp; ⚈ &nbsp;<a href="https://github.com/Clairehkx/IAT339_P02"> git </a> </p>
+				</div>
+				<div class="footer-div">
+					<p id="footerTitle">HOMAKER<sup>©</sup></p>
+				</div>
+			</section>
+
+
+	</body>
 
 </html>

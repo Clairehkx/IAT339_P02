@@ -1,5 +1,5 @@
 *,*::after, *::before {
-	box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 [class^='grid-col-']{
@@ -32,6 +32,8 @@
 	/*padding:0 1.5em 0 1.5em;*/
 	text-align: center;
 
+	margin: 0;
+
 }
 
 
@@ -47,20 +49,20 @@
 
 .grid-row::after{
 	content:"";
-	display: block;
-	clear: both;
-	/*border-bottom: 1px solid rgb(200,200,200);*/
+    display: block;
+    clear: both;
+    /*border-bottom: 1px solid rgb(200,200,200);*/
 }
 
 .footer-div
 {
-	padding-left: 1.5rem;
-	display: inline-block;
-	width: 30%;
+  padding-left: 1.5rem;
+  display: inline-block;
+  width: 30%;
 
 }
 .footer-div #footerTitle{
-	margin-left:200%;
+  margin-left:200%;
 }
 
 
@@ -69,10 +71,43 @@
 		width:50%;
 		padding:0 1.5em 0 1.5em;
 	}
+
+  .grid-col-1of5{
+  	width:20%;
+  	/*padding:0 1.5em 0 1.5em;*/
+  	text-align: center;
+
+  	margin: 0;
+
+  }
+
+  h3{
+  	font-family: 'Din';
+  	font-weight: normal;
+  	font-style: normal;
+  	color: rgb(160,200,190);
+  	font-size: 22px;
+  }
+
+  .product-list img{
+  	max-width: 100%;
+  	margin: 0;
+  }
+
+  .cart{
+    text-align: right;
+  }
+
+
+
 }
 
 @media(max-width:45rem){
 
+
+  .cart{
+  	text-align: center;
+  }
 	.grid-col-1of2{
 		width: 100%;
 	}
@@ -96,6 +131,27 @@
 		width:50%;
 	}
 
+  .grid-col-1of5{
+    width:100%;
+    /*padding:0 1.5em 0 1.5em;*/
+    text-align: center;
+
+    margin: 0;
+
+  }
+
+  .container .cart-row-first h3{
+    font-size: 0px;
+  }
+
+  .cart-row-first{
+  	border-bottom-color: #A0C8BE;
+  	border-bottom-style: none;
+  	border-bottom-width: 0px;
+  	padding: 0px;
+  	margin: 0px;
+  }
+
 	.container h3{
 		color: rgb(100,100,100);
 		font-size: 1em;
@@ -113,21 +169,26 @@
 		display: inline-block;
 	}
 
-	.footer-div
-	{
-		display:flex;
-		flex-wrap: wrap;
-		width:100%;
-		vertical-align: middle;
-		padding-left:20%;
+  .footer-div
+  {
+    display:flex;
+    flex-wrap: center;
+    width:100%;
+    vertical-align: middle;
+    padding-left:20%;
 
-	}
+  }
 
-	.footer-div #footerTitle{
-		margin-left:0%;
-		padding-left:25%;
-	}
+  .footer-div #footerTitle{
+    margin-left:0%;
+    padding-left:25%;
+  }
 
-
+  .invisible{
+    font-family: 'Din';
+  	font-weight: normal;
+  	font-size: 14px;
+  	color:rgb(150,150,150);
+  }
 
 }

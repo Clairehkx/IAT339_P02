@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Homaker: Cart</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="css/grid.css">
+	</head>
+
+	<body>
+		<section id="top" class="container">
+			<a href="index.html"><h1>Homaker</h1></a>
+		</section>
+		<nav>
+		<div class="grid-row">
+
+			<div class="grid-icon">
+				<div class="container">
+					<figure>
+						<a href="user.html"><img src="img/user.png" alt="user"></a>
+					</figure>
+				</div>
+			</div>
+			<div class="grid-col-main">
+				<div class="grid-col-1of4">
+					<a href ="rooms.html" class="nav-item">rooms</a>
+				</div>
+				<div class="grid-col-1of4">
+					<a href ="product-list.html" class="nav-item">products</a>
+				</div>
+				<div class="grid-col-1of4">
+					<a href ="about.html" class="nav-item">about</a>
+				</div>
+				<div class="grid-col-1of4">
+					<a href ="contact.html" class="nav-item">contact</a>
+				</div>
+			</div>
+			<div class="grid-icon">
+				<div class="container">
+					<figure>
+						<a href="cart.html"><img src="img/cart.png" alt="shoppingCart"></a>
+					</figure>
+				</div>
+			</div>
+
+		</div>
+	</nav>
+
+
+		<section class="container">
+
+		<div class="grid-row">
+		<div class="grid-col-1of2">
+		<h2> Checkout </h2>
+
+
+			<h3> Contact Info </h3>
+			<p>
+			Email: <input type="text"></p>
+
+		<h3> Shipping Address </h3>
+		<div><p>First Name: <input type="text"></p></div>
+		<div><p>Last Name: <input type="text"></p></div>
+		<div>
+		<p>Address: <input type="text" style="width:13.9em"><br>
+		<input type="text" style="width:19.2em"></p>
+		</div>
+
+		<div><p>Postal Code: <input type="text"></p></div>
+		<div><p>City: <input type="text"></p></div>
+		<div><p>Province:
+							<select name="province" style="width:13.9em">
+									<option value="BC" selected>British Columbia</option>
+									<option value="AB" >Alberta</option>
+									<option value="ON">Ontario</option>
+									<option value="NB">New Brunswick</option>
+									<option value="NL">Newfoundland and Labrador</option>
+							</select>
+		</p></div>
+		<div><p>Country: <input type="text"><br></p></div>
+		<div><p>Phone: <input type="text"></p></div>
+		<h3> Shipping Method </h3>
+		<p><input type="radio" name="shipping" value="free"> Free Shipping - 15 days<br>
+		<input type="radio" name="shippiung" value="free"> Express Shipping - 2 days <br></p>
+
+		<h3> Payment </h3>
+		<p>Card Number <input type="text" style="width:18.4em"> <br>
+		Expiry: <input type="text" style="width:30px"> / <input type="text" style="width:30px">
+	  CVC : <input type="text"> <br></p>
+		<button id="plcOrder">Place Order</button>
+	</div>
+
+	<div class="grid-col-1of2">
+		<div class="check-out">
+		<div class="grid-row cart-row">
+				<div class="grid-col-1of5 product-list">
+					<figure>
+						<a href="clock.html"><img src="img/clock.jpg" alt="product3"></a>
+					</figure>
+				</div>
+				<div class="grid-col-1of5 product-list">
+						<p><a href="clock.html">Designer Clock</a></p>
+				</div>
+				<div class="grid-col-1of5">
+						<p>$109</p>
+				</div>
+				<div class="grid-col-1of5">
+						<p>x 1</p>
+				</div>
+				<div class="grid-col-1of5">
+						<p>$109</p>
+				</div>
+			</div>
+
+			<div class="grid-row cart-row">
+				<div class="grid-col-1of5 product-list">
+					<figure>
+						<a href="item.html"><img src="img/table.jpg" alt="product3"></a>
+					</figure>
+				</div>
+				<div class="grid-col-1of5 product-list">
+						<p><a href="item.html">Coffee Table</a></p>
+				</div>
+				<div class="grid-col-1of5">
+						<p>$129</p>
+				</div>
+				<div class="grid-col-1of5">
+						<p>x 2</p>
+				</div>
+				<div class="grid-col-1of5">
+						<p>$258</p>
+				</div>
+			</div>
+
+
+
+			<div class="grid-row cart-row">
+				<div class="grid-col-1of5">
+					<p></p>
+				</div>
+				<div class="grid-col-1of5">
+					<p></p>
+				</div>
+				<div class="grid-col-1of5">
+					<p></p>
+				</div>
+				<div class="grid-col-1of5">
+					<p></p>
+				</div>
+				<div class="grid-col-1of5">
+						<p>
+							Subtotal: $367<br>
+							Taxes: $36
+						</p>
+				</div>
+			</div>
+
+			<div class="grid-row cart-row">
+				<div class="grid-col-1of5">
+					<p></p>
+				</div>
+				<div class="grid-col-1of5">
+					<p></p>
+				</div>
+				<div class="grid-col-1of5">
+					<p></p>
+				</div>
+				<div class="grid-col-1of5">
+					<p></p>
+				</div>
+				<div class="grid-col-1of5">
+						<p>
+							Total:$403
+						</p>
+				</div>
+			</div>
+		</div>
+		</div>
+
+	</div>
+	</section>
+	<script src="js/scripts1.js"></script>
+
+
+	<section id="footer">
+
+		<div class="footer-div">
+			<p> <a href="contact.html">contact</a> &nbsp; ⚈ &nbsp; <a href="about.html"> about </a> &nbsp; ⚈ &nbsp; <a href="style-guide.html"> styleguide </a> &nbsp; ⚈ &nbsp;<a href="citation.html"> citation </a> &nbsp; ⚈ &nbsp;<a href="https://github.com/Clairehkx/IAT339_P02"> git</a> </p>
+		</div>
+		<div class="footer-div">
+			<p id="footerTitle">HOMAKER<sup>©</sup></p>
+		</div>
+	</section>
+
+	</body>
+</html>

@@ -77,10 +77,6 @@ nav{
 	text-decoration: underline;
 }
 
-#top a{
-	text-decoration: none;
-}
-
 .in-text{
 	font-family: 'Din';
 	font-size: 16px;
@@ -103,6 +99,9 @@ label{
 	color:rgb(160,200,190);
 }
 
+.invisible{
+	font-size: 0px;
+}
 input{
 	border: 1px solid rgb(210,210,210);
 	padding:0.2rem;
@@ -134,24 +133,6 @@ button{
 }
 
 button:active,button:hover{
-	background: rgb(160,200,190);
-}
-
-.submit-button a{
-	font-family: 'Din';
-	font-size: 16px;
-	text-decoration: none;
-	padding: 0.3rem 0.5rem 0.3rem 0.5rem;
-	font-size: 16px;
-	border: none;
-	background: rgb(210,210,210);
-	color:white;
-	margin-bottom: 1rem;
-	border-radius: 5px;
-	outline-color: rgb(160,200,190);
-}
-
-.submit-button a:active, .submit-button a:hover{
 	background: rgb(160,200,190);
 }
 
@@ -197,12 +178,42 @@ ol{
 	background: #FFFEF8;
 }
 
+.check-out{
+  position: fixed;
+
+}
+
+.cart-row{
+	border-bottom-color: #A0C8BE;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding: 5px;
+	margin: 15px;
+
+}
+
+.cart-row-first{
+	border-bottom-color: #A0C8BE;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding: 5px;
+	margin: 15px;
+}
+
+.cart-row p{
+	text-align: right;
+	margin-right: 20px;
+}
+
+.cart{
+	text-align: right;
+}
 figure{
 	padding: 0;
 	-webkit-margin-before: 0em;
-	-webkit-margin-after: 0em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 .grid-icon img{
@@ -250,6 +261,13 @@ td{
 table{
 
 }
+
+table tr:nth-child(odd) td{
+
+}
+table tr:nth-child(even) td{
+	background: #F5FBEF;
+}
 .phone img{
 	max-width: 100%;
 }
@@ -258,8 +276,8 @@ table{
 	max-width: 100%;
 }
 #nav-fixed-area{
-	display:flex;
-	width: 100%;
+  display:flex;
+  width: 100%;
 
 }
 
@@ -285,8 +303,8 @@ table{
 
 }
 #navigation{
-	display:flex;
-	width: 150px;
+  display:flex;
+  width: 150px;
   /*flex-direction: row;
   flex-grow: 10em;*/
   /*position: absolute;*/
@@ -308,7 +326,14 @@ table{
 	text-decoration:none;
 }
 
-#navigation a{
+#navigation a, #navigation a:visited{
+	font-size: 1rem;
+	display: block;
+	text-decoration:none;
+	color:rgb(150,150,150);
+}
+
+#top a, #top a:visited{
 	font-size: 1rem;
 	display: block;
 	text-decoration:none;
@@ -341,15 +366,15 @@ table{
 }
 
 #top h1{
-	-webkit-margin-before: 0em;
-	-webkit-margin-after: 0em;
+	    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
 }
 
 .about h3{
 	-webkit-margin-before:0;
-	-webkit-margin-after:0;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
+    -webkit-margin-after:0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 #menu-about a,#menu-home a{
@@ -372,9 +397,9 @@ table{
 
 .item-container h2{
 	-webkit-margin-before: 0.4em;
-	-webkit-margin-after: 0em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 .back{

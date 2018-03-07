@@ -42,7 +42,7 @@
 			<div class="grid-icon">
 				<div class="container">
 					<figure>
-						<a href="#cart"><img src="img/cart.png" alt="shoppingCart"></a>
+						<a href="cart.html"><img src="img/cart.png" alt="shoppingCart"></a>
 					</figure>
 				</div>
 			</div>
@@ -64,8 +64,8 @@
 					<p>A wall clock that tells the time using numbers of seed heads on the dandelion clocks, rather than numerals. It alludes to time flowing onward like seed heads dancing lightly upon the wind.</p>
 				</div>
 				<div class="button-container">
-					<button>Add to favourite</button>
-					<button>Add to Cart</button>
+					<button id ='favBtn'>Add to favourite</button>
+					<button id ='addCartBtn'>Add to Cart</button>
 				</div>
 			</div>
 		</div>
@@ -73,11 +73,24 @@
 	<section>
 		<div class="comments grid-row">
 			<h3>Comments:</h3>
-			<div><textarea name="message" placeholder="Add your comments" rows="10" cols="80"></textarea></div>
+			<div ><textarea name="message" placeholder="Add your comments" rows="10" cols="80"></textarea></div>
 			<div>
-				<button>submit</button>
+				<button id='submitbtn'>submit</button>
 			</div>
+			<div id='output'></div>
 		</div>
 	</section>
+	<script src="js/scripts1.js"></script>
+
+	<section id="footer">
+
+		<div class="footer-div">
+			<p> <a href="contact.html">contact</a> &nbsp; ⚈ &nbsp; <a href="about.html"> about </a> &nbsp; ⚈ &nbsp; <a href="style-guide.html"> styleguide </a> &nbsp; ⚈ &nbsp;<a href="citation.html"> citation </a> &nbsp; ⚈ &nbsp;<a href="https://github.com/Clairehkx/IAT339_P02"> git</a> </p>
+		</div>
+		<div class="footer-div">
+			<p id="footerTitle">HOMAKER<sup>©</sup></p>
+		</div>
+	</section>
+
 </body>
 </html>
