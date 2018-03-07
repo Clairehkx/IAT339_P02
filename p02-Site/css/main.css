@@ -377,7 +377,7 @@ table tr:nth-child(even) td{
     -webkit-margin-end: 0px;
 }
 
-#menu-about a,#menu-home a{
+#menu-about a,#menu-home a, #menu-product a, #menu-contact a, #menu-room a{
 	font-family: 'Din';
 	font-weight: bold;
 	padding: 0.5em 1em 0.5em 1em;
@@ -404,7 +404,7 @@ table tr:nth-child(even) td{
 
 .back{
 	position: fixed;
-	bottom: 0;
+	bottom: 40px;
 	right: 0;
 	width: 140px;
 	height: 70px;
