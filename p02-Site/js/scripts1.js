@@ -10,13 +10,7 @@ var btnClick = function(){
 	//window.location.href='index.html';
 };
 
-function processOrderClick(){
-	alert("Your order has been placed!");
-	window.location.href='index.html';
-};
 
-
-placeOrderBtn.addEventListener("click", processOrderClick);
 
 myButton.addEventListener("click", btnClick);
 
@@ -42,3 +36,12 @@ function favConfirm() {
 }
 
 favBtn.addEventListener("click", favConfirm);
+
+
+function processOrderClick(){
+	alert("Your order has been placed!");
+	window.location.href='index.html';
+}
+
+
+placeOrderBtn.addEventListener("click", processOrderClick);
