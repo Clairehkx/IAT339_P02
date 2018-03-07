@@ -188,15 +188,22 @@ ol{
 figure{
 	padding: 0;
 	-webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 
 .grid-icon img{
 	width: 30px;
 	position: relative;
 	margin-top: 1.5em;
+
+}
+
+.grid-icon img:hover{
+	width: 40px;
+	position: relative;
+	margin-top: 1.2em;
 
 }
 
@@ -232,13 +239,13 @@ code{
 	max-width: 100%;
 }
 #nav-fixed-area{
-  display:flex;
-  width: 100%;
+	display:flex;
+	width: 100%;
 
 }
 #navigation{
-  display:flex;
-  width: 150px;
+	display:flex;
+	width: 150px;
   /*flex-direction: row;
   flex-grow: 10em;*/
   /*position: absolute;*/
@@ -309,4 +316,23 @@ code{
 	color: rgb(140,180,170);
 	text-decoration: underline;
 
+}
+
+#footer{
+	margin-top: 20%;
+	border-top: 1px solid rgb(200,200,200);
+}
+
+#footer p{
+	font-size: 8pt;
+	color: grey;
+}
+
+#footer p a{
+	text-decoration: none;
+	color:grey;
+}
+#footer p a:hover{
+	text-decoration: underline;
+	color:grey;
 }

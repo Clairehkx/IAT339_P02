@@ -1,5 +1,5 @@
 *,*::after, *::before {
-   box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 [class^='grid-col-']{
@@ -47,20 +47,20 @@
 
 .grid-row::after{
 	content:"";
-    display: block;
-    clear: both;
-    /*border-bottom: 1px solid rgb(200,200,200);*/
+	display: block;
+	clear: both;
+	/*border-bottom: 1px solid rgb(200,200,200);*/
 }
 
 .footer-div
 {
-  padding-left: 1.5rem;
-  display: inline-block;
-  width: 30%;
+	padding-left: 1.5rem;
+	display: inline-block;
+	width: 30%;
 
 }
 .footer-div #footerTitle{
-  margin-left:200%;
+	margin-left:200%;
 }
 
 
@@ -113,20 +113,20 @@
 		display: inline-block;
 	}
 
-  .footer-div
-  {
-    display:flex;
-    flex-wrap: center;
-    width:100%;
-    vertical-align: middle;
-    padding-left:20%;
+	.footer-div
+	{
+		display:flex;
+		flex-wrap: wrap;
+		width:100%;
+		vertical-align: middle;
+		padding-left:20%;
 
-  }
+	}
 
-  .footer-div #footerTitle{
-    margin-left:0%;
-    padding-left:25%;
-  }
+	.footer-div #footerTitle{
+		margin-left:0%;
+		padding-left:25%;
+	}
 
 
 

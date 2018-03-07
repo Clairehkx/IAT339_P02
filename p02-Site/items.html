@@ -1,86 +1,85 @@
 <!doctype html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Product</title>
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/font.css">
-		<link rel="stylesheet" href="css/grid.css">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Item</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/grid.css">
+</head>
 
-	<body>
-		<section id="top" class="container">
-			<h1>Homaker</h1>
-		</section>
-		<nav>
+<body>
+	<section id="top" class="container">
+		<a href="index.html"><h1>Homaker</h1></a>
+	</section>
+	<nav>
 		<div class="grid-row">
 
-				<div class="grid-icon">
-					<div class="container">
+			<div class="grid-icon">
+				<div class="container">
 					<figure>
 						<a href="user.html"><img src="img/user.png" alt="user"></a>
 					</figure>
 				</div>
+			</div>
+			<div class="grid-col-main">
+				<div class="grid-col-1of4">
+					<a href ="rooms.html" class="nav-item">rooms</a>
 				</div>
-				<div class="grid-col-main">
-					<div class="grid-col-1of4">
-						<a href ="rooms.html" class="nav-item">rooms</a>
-					</div>
-					<div class="grid-col-1of4">
-						<a href ="index.html" class="nav-item">home</a>
-					</div>
-					<div class="grid-col-1of4">
-						<a href ="about.html" class="nav-item">about</a>
-					</div>
-					<div class="grid-col-1of4">
-						<a href ="contact.html" class="nav-item">contact</a>
-					</div>
+				<div class="grid-col-1of4">
+					<a href ="product-list.html" class="nav-item">products</a>
 				</div>
-				<div class="grid-icon">
-					<div class="container">
+				<div class="grid-col-1of4" id="menu-about">
+					<a href ="about.html" class="nav-item">about</a>
+				</div>
+				<div class="grid-col-1of4">
+					<a href ="contact.html" class="nav-item">contact</a>
+				</div>
+			</div>
+
+			<div class="grid-icon">
+				<div class="container">
 					<figure>
 						<a href="#cart"><img src="img/cart.png" alt="shoppingCart"></a>
 					</figure>
 				</div>
-				</div>
 			</div>
-		</nav>
-		<section class="container">
-			<div class="grid-row">
-				<div class="grid-col-1of2 about-img">
-						<figure>
-							<img src="img/table.jpg" alt="item">
-						</figure>
-				</div>
 
-				<div class="grid-col-1of2 item-container">
-					<div>
-						<h2>Coffee Table</h2>
-						<h3>$129</h3>
-						<p>A side table designed for Marsotto edizioni an Italian brand specializing in marble furniture.Two contradicting elements which are lightness and weight were mixed, which is achieved by cutting out a part of the tip of the legs in a shape of an arc so to give the legroom some lightness, whilst maintaining the inherent dignity of the marble.</p>
-					</div>
-					<div class="button-container">
-						<button>Add to favourite</button>
-						<button>Add to Cart</button>
-					</div>
-				</div>
+		</div>
+	</nav>
+	<section class="container">
+		<div class="grid-row">
+			<div class="grid-col-1of2 about-img">
+				<figure>
+					<img src="img/table.jpg" alt="item">
+				</figure>
 			</div>
-		</section>
-		<section>
-			<div class="comments grid-row">
-				<h3>Comments:</h3>
-				<div><textarea name="message" placeholder="Add your comments" rows="10" cols="80"></textarea></div>
+
+			<div class="grid-col-1of2 item-container">
 				<div>
-					<button>submit</button>
+					<h2>Coffee Table</h2>
+					<h3>$129</h3>
+					<p>A side table designed for Marsotto edizioni an Italian brand specializing in marble furniture.Two contradicting elements which are lightness and weight were mixed, which is achieved by cutting out a part of the tip of the legs in a shape of an arc so to give the legroom some lightness, whilst maintaining the inherent dignity of the marble.</p>
 				</div>
-				<!-- <ul>
-					<li>Vivamus sit amet interdum urna. Vestibulum eget elementum dui. </li>
-					<li>Nam ut lacus ac libero ornare gravida at eget mi. </li>
-					<li>Aliquam ornare quam non lectus tincidunt scelerisque. </li>
-				</ul> -->
+				<div class="button-container">
+					<button id ='favBtn'>Add to favourite</button>
+					<button id ='addCartBtn'>Add to Cart</button>
+				</div>
 			</div>
-		</section>
-	</body>
+		</div>
+	</section>
+	<section>
+		<div class="comments grid-row">
+			<h3>Comments:</h3>
+			<div><textarea name="message" placeholder="Add your comments" rows="10" cols="80"></textarea></div>
+			<div>
+				<button id='submitbtn'>submit</button>
+			</div>
+			<div id='output'></div>
+		</div>
+	</section>
+	<script src="js/scripts1.js"></script>
+</body>
 </html>
