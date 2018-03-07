@@ -133,6 +133,24 @@ button:active,button:hover{
 	background: rgb(160,200,190);
 }
 
+.submit-button a{
+	font-family: 'Din';
+	font-size: 16px;
+	text-decoration: none;
+	padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+	font-size: 16px;
+	border: none;
+	background: rgb(210,210,210);
+	color:white;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	outline-color: rgb(160,200,190);
+}
+
+.submit-button a:active, .submit-button a:hover{
+	background: rgb(160,200,190);
+}
+
 p{
 	font-family: 'Din';
 	font-weight: normal;
@@ -178,9 +196,9 @@ ol{
 figure{
 	padding: 0;
 	-webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 
 .grid-icon img{
@@ -236,8 +254,8 @@ table{
 	max-width: 100%;
 }
 #nav-fixed-area{
-  display:flex;
-  width: 100%;
+	display:flex;
+	width: 100%;
 
 }
 
@@ -263,8 +281,8 @@ table{
 
 }
 #navigation{
-  display:flex;
-  width: 150px;
+	display:flex;
+	width: 150px;
   /*flex-direction: row;
   flex-grow: 10em;*/
   /*position: absolute;*/
@@ -319,15 +337,15 @@ table{
 }
 
 #top h1{
-	    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
 }
 
 .about h3{
 	-webkit-margin-before:0;
-    -webkit-margin-after:0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+	-webkit-margin-after:0;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 
 #menu-about a,#menu-home a{
@@ -350,9 +368,9 @@ table{
 
 .item-container h2{
 	-webkit-margin-before: 0.4em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 
 .back{

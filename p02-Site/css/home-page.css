@@ -188,9 +188,9 @@ ol{
 figure{
 	padding: 0;
 	-webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 
 .grid-icon img{
@@ -232,13 +232,13 @@ code{
 	max-width: 100%;
 }
 #nav-fixed-area{
-  display:flex;
-  width: 100%;
+	display:flex;
+	width: 100%;
 
 }
 #navigation{
-  display:flex;
-  width: 150px;
+	display:flex;
+	width: 150px;
   /*flex-direction: row;
   flex-grow: 10em;*/
   /*position: absolute;*/

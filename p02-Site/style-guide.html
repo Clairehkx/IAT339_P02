@@ -1,98 +1,97 @@
 <!doctype html>
 
 <html lang="ca">
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="main.css">
-		<title>My Company</title>
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/font.css">
-		<link rel="stylesheet" href="css/grid.css">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<title>My Company</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/grid.css">
+</head>
 
-	<body>
-		<section>
-			<h1>Interactive Elements</h1>
-			<h2>In-text Link</h2>
-			<a href="#link" class="in-text">In-text Link</a>
+<body>
+	<section>
+		<h1>Interactive Elements</h1>
+		<h2>In-text Link</h2>
+		<a href="#link" class="in-text">In-text Link</a>
+		<p>Sample code:</p>
+		<code>&lt;a href="#" class="in-text"&gt;In-text Link&lt;/a&gt;</code>
+		<h2>Navigation</h2>
+		<nav>
+			<a href ="#style" class="nav-item">Style Guide</a>
+			<a href ="wireframe.html" class="nav-item">Wireframe</a>
+			<a href ="citation.html" class="nav-item">Citation</a>
+		</nav>
+		<p>Sample code:</p>
+		<code>&lt;a href="#" class="nav-item"&gt;Style Guide&lt;/a&gt;</code>
+
+		<h2>Text Input Fields</h2>
+		<form>
+			<label>Username: </label>
+			<input type="text" name="Email" placeholder="Email Address"><br>
+			<label>Password: </label>
+			<input type="text" name="Password" placeholder="Password"><br>
 			<p>Sample code:</p>
-	        <code>&lt;a href="#" class="in-text"&gt;In-text Link&lt;/a&gt;</code>
-	        <h2>Navigation</h2>
+			<code>&lt;label&gt;Username: &lt;/label&gt;<br>
+			&lt;input type="text" name="Email" placeholder="Email Address&gt;Username: &lt;/input&gt;</code>
+			<textarea name="message" placeholder="Add your comments" rows="10" cols="35"></textarea><br>
+			<p>Sample code:</p>
+			<code>
+			&lt;textarea name="message" placeholder="Add your comments" rows="10" cols="35"&gt;&lt;/textarea&gt;</code>
+			<button>submit</button>
+			<button>reset</button><br>
+			<p>Sample code:</p>
+			<code>
+			&lt;button&gt;submit&lt;/button&gt;</code>
+		</form>
+	</section>
+
+	<section>
+		<h1>Text Styling:</h1>
+		<h1>Heading1 style</h1>
+		<h2>Heading2 style</h2>
+		<h3>Heading3 style</h3>
+		<p>Sample code:</p>
+		<code>
+			&lt;h1&gt;Heading1 style&lt;/h1&gt;
+		</code>
+		<h2>Paragraph:</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies. </p>
+		<p>Sample code:</p>
+		<code>
+			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat...&lt;/p&gt;
+		</code>
+		<h2>Bulletted list</h2>
+		<ul>
+			<li>Vivamus sit amet interdum urna. Vestibulum eget elementum dui. </li>
+			<li>Nam ut lacus ac libero ornare gravida at eget mi. </li>
+			<li>Aliquam ornare quam non lectus tincidunt scelerisque. </li>
+		</ul>
+		<p>Sample code:</p>
+		<code>
+			&lt;ul&gt;<br>&lt;li&gt;Vivamus sit amet interdum urna. Vestibulum eget elementum dui.&lt;/li&gt;<br>&lt;li&gt;Nam ut lacus ac libero ornare gravida at eget mi.&lt;/li&gt;<br>&lt;li&gt;Aliquam ornare quam non lectus tincidunt scelerisque. &lt;/li&gt;
+			<br>&lt;/ul&gt;
+		</code>
+
+		<h2>Numbered list</h2>
+		<ol>
+			<li>Vivamus sit amet interdum urna. Vestibulum eget elementum dui. </li>
+			<li>Nam ut lacus ac libero ornare gravida at eget mi. </li>
+			<li>Aliquam ornare quam non lectus tincidunt scelerisque. </li>
+		</ol>
+
+		<p>Sample code:</p>
+		<code>
+			&lt;ol&gt;<br>&lt;li&gt;Vivamus sit amet interdum urna. Vestibulum eget elementum dui.&lt;/li&gt;<br>&lt;li&gt;Nam ut lacus ac libero ornare gravida at eget mi.&lt;/li&gt;<br>&lt;li&gt;Aliquam ornare quam non lectus tincidunt scelerisque. &lt;/li&gt;
+			<br>&lt;/ol&gt;
+		</code>
+	</section>
+
+	<section>
+		<h1>Combined Elements</h1>
+		<h2>main navigation</h2>
+		<div class="grid-row">
 			<nav>
-				<a href ="#style" class="nav-item">Style Guide</a>
-				<a href ="wireframe.html" class="nav-item">Wireframe</a>
-				<a href ="citation.html" class="nav-item">Citation</a>
-			</nav>
-			<p>Sample code:</p>
-	        <code>&lt;a href="#" class="nav-item"&gt;Style Guide&lt;/a&gt;</code>
-
-			<h2>Text Input Fields</h2>
-			<form>
-				<label>Username: </label>
-				<input type="text" name="Email" placeholder="Email Address"><br>
-				<label>Password: </label>
-				<input type="text" name="Password" placeholder="Password"><br>
-				<p>Sample code:</p>
-		        <code>&lt;label&gt;Username: &lt;/label&gt;<br>
-	        	&lt;input type="text" name="Email" placeholder="Email Address&gt;Username: &lt;/input&gt;</code>
-				<textarea name="message" placeholder="Add your comments" rows="10" cols="35"></textarea><br>
-				<p>Sample code:</p>
-				<code>
-	        	&lt;textarea name="message" placeholder="Add your comments" rows="10" cols="35"&gt;&lt;/textarea&gt;</code>
-				<button>submit</button>
-				<button>reset</button><br>
-				<p>Sample code:</p>
-				<code>
-	        	&lt;button&gt;submit&lt;/button&gt;</code>
-			</form>
-		</section>
-
-		<section>
-			<h1>Text Styling:</h1>
-			<h1>Heading1 style</h1>
-			<h2>Heading2 style</h2>
-			<h3>Heading3 style</h3>
-			<p>Sample code:</p>
-			<code>
-		        &lt;h1&gt;Heading1 style&lt;/h1&gt;
-		    </code>
-			<h2>Paragraph:</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies. </p>
-			<p>Sample code:</p>
-			<code>
-		        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat...&lt;/p&gt;
-		    </code>
-			<h2>Bulletted list</h2>
-			<ul>
-				<li>Vivamus sit amet interdum urna. Vestibulum eget elementum dui. </li>
-				<li>Nam ut lacus ac libero ornare gravida at eget mi. </li>
-				<li>Aliquam ornare quam non lectus tincidunt scelerisque. </li>
-			</ul>
-			<p>Sample code:</p>
-			<code>
-		        &lt;ul&gt;<br>&lt;li&gt;Vivamus sit amet interdum urna. Vestibulum eget elementum dui.&lt;/li&gt;<br>&lt;li&gt;Nam ut lacus ac libero ornare gravida at eget mi.&lt;/li&gt;<br>&lt;li&gt;Aliquam ornare quam non lectus tincidunt scelerisque. &lt;/li&gt;
-		        <br>&lt;/ul&gt;
-		    </code>
-
-			<h2>Numbered list</h2>
-			<ol>
-				<li>Vivamus sit amet interdum urna. Vestibulum eget elementum dui. </li>
-				<li>Nam ut lacus ac libero ornare gravida at eget mi. </li>
-				<li>Aliquam ornare quam non lectus tincidunt scelerisque. </li>
-			</ol>
-
-			<p>Sample code:</p>
-			<code>
-		        &lt;ol&gt;<br>&lt;li&gt;Vivamus sit amet interdum urna. Vestibulum eget elementum dui.&lt;/li&gt;<br>&lt;li&gt;Nam ut lacus ac libero ornare gravida at eget mi.&lt;/li&gt;<br>&lt;li&gt;Aliquam ornare quam non lectus tincidunt scelerisque. &lt;/li&gt;
-		        <br>&lt;/ol&gt;
-		    </code>
-		</section>
-
-		<section>
-			<h1>Combined Elements</h1>
-			<h2>main navigation</h2>
-			<div class="grid-row">
-				<nav>
 				<div class="grid-icon">
 					<figure>
 						<a href="#user"><img src="img/user.png" alt="user"></a>
@@ -117,19 +116,19 @@
 						<a href="#cart"><img src="img/cart.png" alt="shoppingCart"></a>
 					</figure>
 				</div>
-				</nav>
-			</div>
-			<p>Sample code:</p>
-			<code>
-		        &lt;div class="grid-col-1of4"&gt;<br>&lt;a href="#home" class="nav-item"&gt;home&lt;/a&gt;<br>&lt;/div&gt;
-		    </code>
-			<h2>products list</h2>
-			<div class="grid-row">
-				<div class="grid-col-1of3 product-list">
-					<figure>
-						<a href="#product1"><img src="img/table.jpg" alt="product1"></a>
-						<a href="#product1">Coffee Table</a>
-						<p>$129
+			</nav>
+		</div>
+		<p>Sample code:</p>
+		<code>
+			&lt;div class="grid-col-1of4"&gt;<br>&lt;a href="#home" class="nav-item"&gt;home&lt;/a&gt;<br>&lt;/div&gt;
+		</code>
+		<h2>products list</h2>
+		<div class="grid-row">
+			<div class="grid-col-1of3 product-list">
+				<figure>
+					<a href="#product1"><img src="img/table.jpg" alt="product1"></a>
+					<a href="#product1">Coffee Table</a>
+					<p>$129
 					</figure>
 				</div>
 				<div class="grid-col-1of3 product-list">
@@ -138,73 +137,73 @@
 						<a href="#product1">Armchair
 						</a>
 						<p>$159
-					</figure>
-				</div>
-				<div class="grid-col-1of3 product-list">
-					<figure>
-						<a href="#product3"><img src="img/clock.jpg" alt="product3"></a>
-						<a href="#product3">Designer Clock
-						</a>
-						<p>$109
-					</figure>
-				</div>
+						</figure>
+					</div>
+					<div class="grid-col-1of3 product-list">
+						<figure>
+							<a href="#product3"><img src="img/clock.jpg" alt="product3"></a>
+							<a href="#product3">Designer Clock
+							</a>
+							<p>$109
+							</figure>
+						</div>
 
-			</div>
-			<p>Sample code:</p>
-			<code>
-		        &lt;div class="grid-col-1of3 product-list"&gt;<br>&lt;figure&gt;<br>&lt;a href="#home" class="nav-item"&gt;&lt;img src="img/clock.jpg alt="product3"&gt;&lt;/a&gt;<br>&lt;a href="#product3"&gt;Designer Clock&lt;/a&gt;<br>&lt;p&gt;$109&lt;/p&gt;<br>&lt;/figure&gt;<br>&lt;/div&gt;
-		    </code>
-			<h2>grid structure</h2>
-			<div class="grid-row">
-				<h3>2 column grid</h3>
-				<div class="grid-col-1of2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies.</p>
-				</div>
-				<div class="grid-col-1of2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies.</p>
-				</div>
-			</div>
+					</div>
+					<p>Sample code:</p>
+					<code>
+						&lt;div class="grid-col-1of3 product-list"&gt;<br>&lt;figure&gt;<br>&lt;a href="#home" class="nav-item"&gt;&lt;img src="img/clock.jpg alt="product3"&gt;&lt;/a&gt;<br>&lt;a href="#product3"&gt;Designer Clock&lt;/a&gt;<br>&lt;p&gt;$109&lt;/p&gt;<br>&lt;/figure&gt;<br>&lt;/div&gt;
+					</code>
+					<h2>grid structure</h2>
+					<div class="grid-row">
+						<h3>2 column grid</h3>
+						<div class="grid-col-1of2">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies.</p>
+						</div>
+						<div class="grid-col-1of2">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies.</p>
+						</div>
+					</div>
 
-			<div class="grid-row">
-				<h3>3 column grid</h3>
-				<div class="grid-col-1of3">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies.</p>
-				</div>
-				<div class="grid-col-1of3">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies.</p>
-				</div>
-				<div class="grid-col-1of3">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies.</p>
-				</div>
-			</div>
+					<div class="grid-row">
+						<h3>3 column grid</h3>
+						<div class="grid-col-1of3">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies.</p>
+						</div>
+						<div class="grid-col-1of3">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies.</p>
+						</div>
+						<div class="grid-col-1of3">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis fermentum placerat. Sed fringilla faucibus fringilla. Donec id dolor eu felis ultrices porttitor. Vivamus sed auctor elit. Suspendisse eu augue ut ex maximus sodales. Aenean a purus maximus, posuere eros eu, pellentesque est. Fusce pharetra ante at nunc varius, sed euismod odio aliquet. Sed vel pellentesque ligula. Phasellus ac purus consequat, condimentum neque vitae, lobortis est. Aliquam sed quam efficitur, iaculis nisi in, feugiat nulla. Pellentesque at nunc nunc. Mauris vel commodo risus. In convallis massa et odio feugiat ultricies.</p>
+						</div>
+					</div>
 
-			<div class="grid-row">
-				<h2>color swatches</h2>
-				<div class="grid-col-1of5 color-1">
-					<h3>#969696</h3>
-				</div>
-				<div class="grid-col-1of5 color-2">
-					<h3>#D2D2D2</h3>
-				</div>
-				<div class="grid-col-1of5 color-3">
-					<h3 class="color-3">#A0C8BE</h3>
-				</div>
-				<div class="grid-col-1of5 color-4">
-					<h3>#5A96AA</h3>
-				</div>
-				<div class="grid-col-1of5 color-5">
-					<h3>#F5FBEF</h3>
-				</div>
-			</div>
-		</section>
-		<section id="footer">
+					<div class="grid-row">
+						<h2>color swatches</h2>
+						<div class="grid-col-1of5 color-1">
+							<h3>#969696</h3>
+						</div>
+						<div class="grid-col-1of5 color-2">
+							<h3>#D2D2D2</h3>
+						</div>
+						<div class="grid-col-1of5 color-3">
+							<h3 class="color-3">#A0C8BE</h3>
+						</div>
+						<div class="grid-col-1of5 color-4">
+							<h3>#5A96AA</h3>
+						</div>
+						<div class="grid-col-1of5 color-5">
+							<h3>#F5FBEF</h3>
+						</div>
+					</div>
+				</section>
+				<section id="footer">
 
-			<div class="footer-div">
-				<p> <a href="contact.html">contact</a> &nbsp; ⚈ &nbsp; <a href="about.html"> about </a> &nbsp; ⚈ &nbsp; <a href="style-guide.html"> styleguide </a> &nbsp; ⚈ &nbsp;<a href="citation.html"> citation </a> </p>
-			</div>
-			<div class="footer-div">
-				<p id="footerTitle">HOMAKER<sup>©</sup></p>
-			</div>
-		</section>
-	</body>
-</html>
+					<div class="footer-div">
+						<p> <a href="contact.html">contact</a> &nbsp; ⚈ &nbsp; <a href="about.html"> about </a> &nbsp; ⚈ &nbsp; <a href="style-guide.html"> styleguide </a> &nbsp; ⚈ &nbsp;<a href="citation.html"> citation </a> </p>
+					</div>
+					<div class="footer-div">
+						<p id="footerTitle">HOMAKER<sup>©</sup></p>
+					</div>
+				</section>
+			</body>
+			</html>
