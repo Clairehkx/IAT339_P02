@@ -77,6 +77,10 @@ nav{
 	text-decoration: underline;
 }
 
+#top a{
+	text-decoration: none;
+}
+
 .in-text{
 	font-family: 'Din';
 	font-size: 16px;
